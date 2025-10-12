@@ -1,0 +1,46 @@
+:root {
+    --background: #E3EED4;
+    --onBackground: #0F2A1D;
+    --primaryContainer: #6B9071;
+    --onPrimaryContainer: #E3EED4;
+    --secondaryContainer: #375534;
+    --onSecondaryContainer: #E3EED4;
+    --tertiaryContainer: #AEC3B0;
+    --onTertiaryContainer: #0F2A1D;
+    --sideBarBackground: #0F2A1D;
+    --sideBarHighlight: #375534;
+    --sideBarColor: #E3EED4;
+    --sideBarLogOut: #B85A48;
+}
+
+.app {
+    background-color: var(--background);
+    color: var(--onBackground);
+
+    display: flex;
+
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+}
+
+.app__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.app__header {
+    padding: 15px 45px;
+    height: 48px;
+}
+.app__header p{
+    margin: 0;
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.app__body {
+    padding: 15px 45px;
+}
+

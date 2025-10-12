@@ -1,0 +1,54 @@
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+
+    margin: 15px;
+    gap: 5px;
+}
+
+.logo {
+    color: var(--onBackground);
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 80px;
+}
+
+.content {
+    background-color: var(--sideBarBackground);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.content.to-bottom {
+    margin-top: auto;
+}
+
+.button, .logout {
+    background-color: transparent;
+    color: var(--sideBarColor);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: var(--sideBarHighlight);
+}
+.logout:hover {
+    background-color: var(--sideBarLogOut);
+}
+
+.button.active {
+    background-color: var(--sideBarHighlight);
+}
